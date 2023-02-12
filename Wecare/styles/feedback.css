@@ -1,0 +1,205 @@
+html {
+    background-image: url(img/back.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* NAV BAR _____________________________*/
+.menu-nav {
+
+    height: 80px;
+    width: 100%;
+
+}
+
+.menu-box {
+
+    background: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+.menu-box ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    top: 0;
+}
+
+.menu-box ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-box ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*LOGO ____________________*/
+.wetitle {
+    color: lightblue;
+    font-size: 30px;
+    font-family: cursive;
+    padding-top: 20px;
+
+}
+
+.caretitle {
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    padding-top: 33px;
+    padding-right: 50px;
+}
+
+.hove,
+.menu-box ul li:hover {
+    background: lightblue;
+    border-radius: 3px;
+}
+
+.footer {
+    margin-top: 220px;
+    height: 200px;
+    width: 100%;
+    color: snow;
+    background-color: black;
+    padding-top: 50px;
+
+
+
+}
+
+.body {
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.fcontainer {
+    width: 70%;
+    height: 80%;
+    margin-top: 100px;
+    border: 1px solid #888;
+    background-color: rgba(46, 150, 176, 0.8);
+    /* Black w/ opacity */
+    background-size: 100% 100%;
+    margin-left: 200px;
+}
+
+.container {
+
+    width: 500px;
+    height: 1300px;
+    margin: 1px auto;
+    border: 1px solid #888;
+    background-color: rgba(46, 150, 176, 0.8);
+    /* Black w/ opacity */
+    background-size: 100% 100%;
+}
+
+.Lcontainer {
+    border-radius: 25px;
+    width: 500px;
+    margin: 1px;
+    border: 1px solid #888;
+    background-color: rgba(46, 150, 176, 0.8);
+    /* Black w/ opacity */
+    background-size: 100% 100%;
+}
+
+form {
+    padding: 50px;
+    background: #0094ff;
+    background-color: rgba(0, 0, 0, 0);
+    /* Black w/ opacity */
+    height: 100%;
+    /* Full height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+form button {
+    background-color: #0094ff;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-size: 100% 100%;
+}
+
+
+
+form .error {
+    color: #ff0000;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}

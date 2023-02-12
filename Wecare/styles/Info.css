@@ -1,0 +1,196 @@
+/* Background */
+*
+{
+    padding-top: 0;
+    margin: 0;
+}
+
+/* Background 2 page 2 */
+
+.background2
+{
+    background-image: url('.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
+}
+
+.footer
+{
+  
+    height: 200px; 
+    width: 100%;
+    color: snow;
+    background-color: black;
+    padding-top: 50px;
+   
+
+    
+}
+
+/* Top Menu box */
+.menu-box
+{
+    background:rgb(0,0,0);
+    text-align: center;
+    position: fixed;
+   
+    width: 100%;
+}
+
+.menu-box ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    top: 0;
+}
+
+.menu-box ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-box ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.wetitle
+{
+    color: lightblue;
+    font-size: 30px;
+    font-family: cursive;
+    padding-top: 20px;
+}
+
+.caretitle
+{
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    padding-top: 33px;
+}
+
+.hove, .menu-box ul li:hover
+{
+    background: lightblue;
+    border-radius: 3px;
+}
+
+/* Main Page Text */
+
+.textmain
+{
+    padding-top: 300px;
+    padding-left: 50px;
+    font-size: 60px;
+    
+}
+.textmain1
+{
+     padding-left: 50px;
+     font-size: 40px;
+}
+
+.textmain2
+{
+    padding-left: 50px;
+    font-size: 17px;
+}
+
+.textmainpre ul li
+{
+    padding-left: 50px;
+    
+}
+
+/*Page 2*/
+
+.pic
+{
+    padding-left:75px;
+    padding-top: 200px;
+    height: 500px;
+    width: 560px;
+    
+}
+
+.background2 SetPicSize
+{
+    max-height: 500px;
+    max-width: 560px;
+    float: left;
+}
+
+.pictitle
+{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.pictext
+{
+    float:right;
+}
+
+.column {
+  float: left; 
+  width: 10.33%;
+  padding: 30px;
+    position: relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    }
+
+/*Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+   
+    .ul {
+    list-style-image: url('sqpurple.gif');
+    
+    }
+@media (min-width: 768px)
+{
+    .row-relative {position: relative;}
+    .col-border-padding {padding-left: 15px;}
+    
+    .col-border {
+        padding-left: 10px;
+        position: static;
+        float: left; 
+        width: 10.33%;
+        padding: 30px;
+    }
+    .col-border:before
+    {
+        content: "";
+        position:  absolute;
+        top: 0;
+        bottom: 0;
+        border-left: 5px dotted black; 
+       
+    }   
+}
+    .ul {
+    list-style-image: url('sqpurple.gif');
+    
+    }
+    body {  padding: 50 px;}
+    .container-fluid {max-width: 1200px;}
+    h2{ margin-top: 0;}
+
+.mySlides {display:none;}
+    

@@ -1,0 +1,95 @@
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+*
+{
+    padding-top: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* NAV BAR _____________________________*/
+.menu-nav
+{
+    
+    height: 80px;
+    width: 100%;
+    
+}
+.menu-box
+{
+    
+    background:rgb(0,0,0);
+    text-align: center;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+.menu-box ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    top:0;
+}
+
+.menu-box ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-box ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*LOGO ____________________*/
+.wetitle
+{
+    color: lightblue;
+    font-size: 30px;
+    font-family: cursive;
+    padding-top: 20px;
+    
+}
+
+.caretitle
+{
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    padding-top: 33px;
+    padding-right: 50px;
+}
+
+.hove, .menu-box ul li:hover
+{
+    background: lightblue;
+    border-radius: 3px;
+}
+.footer
+{
+     
+    height: 200px; 
+    width: 100%;
+    color: snow;
+    background-color: black;
+    padding-top: 50px;
+   
+
+    
+}
+
+border
+{
+    height: 600px;
+    width: 50%;
+    border-style: 3px solid #EEE;
+}

@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>WeCare</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+
+    <script>
+
+        var srcimages = ["img/img1.jfif", "img/img2.jfif", "img/img3.jpg"]
+        var images = document.getElementById("page2");
+
+        var i = 0;
+        setInterval(function change() {
+
+
+            if (i == srcimages.length) {
+                i = 0;
+            }
+
+            var hide1 = document.getElementById("hide1");
+            var hide2 = document.getElementById("hide2");
+
+            if (i == 0) {
+                hide1.style.display = "block";
+                hide1.style.visibility = "visible";
+
+                hide2.style.display = "none";
+                hide2.style.visibility = "hidden";
+
+                hide3.style.display = "none";
+                hide3.style.visibility = "hidden";
+
+            }
+            else if (i == 1) {
+
+                hide2.style.display = "block";
+                hide2.style.visibility = "visible";
+
+                hide3.style.display = "none";
+                hide3.style.visibility = "hidden";
+
+                hide1.style.display = "none";
+                hide1.style.visibility = "hidden";
+
+            } else if (i == 2) {
+
+                hide3.style.display = "block";
+                hide3.style.visibility = "visible";
+
+                hide2.style.display = "none";
+                hide2.style.visibility = "hidden";
+
+                hide1.style.display = "none";
+                hide1.style.visibility = "hidden";
+
+
+            }
+
+            var images = document.getElementById("page2");
+
+
+
+            images.style.backgroundImage = "url(" + srcimages[i] + ")";
+            i++;
+        }, 2500);
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <!-- ------NAV------ -->
+    <div class="menu-nav">
+        <nav class="menu-box">
+
+            <ul>
+
+                <!-- Logo -->
+                <div class="wetitle">
+                    We</div>
+                <div class="caretitle"><u>
+                        Care</u></div>
+
+                <!-- Options For NAV Bar  -->
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="InformationPage.html">INFO</a>
+                </li>
+                <li><a href="Feedback.html">FEEDBACK</a>
+                </li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Page1 -->
+    <div class="mainbackground">
+
+        <div class="textprivate">
+            PRIVATE
+        </div>
+
+        <div class="textinsurance">
+            INSURANCE
+        </div>
+        <!-- ------FLIP Text------ -->
+        <div class="flip-box">
+
+            <div class="flip-inner">
+
+                <div class="flip-front">
+
+                    <h3 class="textmain">HEALTH</h3>
+
+                </div>
+
+                <div class="flip-back">
+
+                    <h3 class="textmain">WE CARE</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- Page2 -->
+    <div class="page2" id="page2">
+
+
+        <div class="textmain2">Health, Dental, Prescription Drug and Travel<br> Coverage for you and your family.
+
+            <br>
+            <br>
+            <br>
+
+            <button type="button" class="button" value="Input Button"><a href="register.html">Sign
+                    Up!</a></button>
+
+            <center>
+                <div class="extratext1" id="hide1">
+                    A lot of Canadians can't afford the stacking medical bill. Buy the platinum or lower plans to play
+                    less for medical charges.
+                </div>
+
+                <div class="extratext1" id="hide2">
+                    We Care is a Health Insurance company that helps you cover your future and provides products for a
+                    monthly fee which will reduce your over all cost.
+                </div>
+
+                <div class="extratext1" id="hide3">
+                    Visit our information site for further knowledge on our plans and don’t forget to give us feedback
+                </div>
+            </center>
+            <br>
+
+        </div>
+    </div>
+
+    <!-- Page3 -->
+
+    <div class="footer">
+
+        <center>
+            <br>
+            <footer>Posted by: Meet, Jagminder Satu, Nick.</footer>
+            <br>
+            <footer>Copyright 2020 MainPage.Html</footer>
+            <br>
+            <footer>647-949-6545</footer>
+        </center>
+
+    </div>
+
+</body>
+
+</html>

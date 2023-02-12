@@ -1,0 +1,224 @@
+* {
+    padding-top: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Background _______________________________*/
+
+
+.mainbackground {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('try.jpg');
+
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+
+
+}
+
+
+
+/* NAV BAR _____________________________*/
+.menu-nav {
+
+    height: 80px;
+    width: 100%;
+
+}
+
+.menu-box {
+
+    background: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+.menu-box ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    top: 0;
+}
+
+.menu-box ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-box ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*LOGO ____________________*/
+.wetitle {
+    color: lightblue;
+    font-size: 30px;
+    font-family: cursive;
+    padding-top: 20px;
+
+}
+
+.caretitle {
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    padding-top: 33px;
+    padding-right: 50px;
+}
+
+.hove,
+.menu-box ul li:hover {
+    background: lightblue;
+    border-radius: 3px;
+}
+
+/* Main Page Text _______________________________*/
+
+.flip-box {
+    align-content: center;
+
+    margin-top: 250px;
+    background-color: transparent;
+    height: 375px;
+    width: 100%;
+
+    perspective: 900px;
+}
+
+.flip-inner {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1.2s;
+}
+
+.flip-box:hover .flip-inner {
+    transform: rotatex(180deg);
+
+}
+
+.flip-front,
+flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-front {
+    background-color: transparent;
+    color: aliceblue;
+    height: 100%;
+
+
+}
+
+.flip-back {
+    height: 100%;
+    background-position: -400px -220px;
+    background-size: cover;
+    color: aliceblue;
+    transform: rotatex(180deg);
+    backface-visibility: hidden;
+}
+
+.textmain {
+    text-align: center;
+    font-size: 10vw;
+    color: snow;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    flex-shrink: 20;
+
+}
+
+.textmain1 {
+    font-size: 10px;
+    color: whitesmoke;
+    flex-shrink: 20;
+}
+
+.textprivate {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    padding-top: 200px;
+    margin-right: 200px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    flex-shrink: 90;
+
+}
+
+.textinsurance {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    padding-top: 450px;
+    margin-right: 200px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    flex-shrink: 90;
+
+}
+
+/*PAGE 2 ____________________________________________________________________________*/
+
+.page2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img1.jfif');
+    background-size: cover;
+    position: absolute;
+    margin-top: 720px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    width: 100%
+}
+
+.textmain2 {
+    color: snow;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.button {
+
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+
+    height: 50px;
+    width: 150px;
+
+}
+
+.extratext1 {
+    visibility: hidden;
+    margin-top: 50px;
+    height: 200px;
+    width: 70%;
+    background-color: black;
+    opacity: 0.7
+}
+
+.footer {
+    margin-top: 1520px;
+    height: 200px;
+    width: 100%;
+    color: snow;
+    background-color: black;
+    padding-top: 50px;
+}
